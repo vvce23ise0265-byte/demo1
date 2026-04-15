@@ -1,0 +1,5 @@
+FROM ECLIPSE-TEMURIN:21-JDK
+WORKDIR /APP
+COPY . /APP
+RUN JAVAC Helloworld.java
+CMD ["java","Helloworld"]
